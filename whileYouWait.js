@@ -18,7 +18,7 @@ function daysUntillMyBirthday(Y){
 			DUMB--
 		}
 	}
-	if(DUMB=1){
+	if(DUMB==1){
 		console.log("***" + DUMB + " DAY UNTIL MY BIRTHDAY****")
 		DUMB--
 		}
@@ -26,4 +26,4 @@ function daysUntillMyBirthday(Y){
 		console.log("*******HAPPY BIRTHDAY*******")
 	}
 }
-daysUntillMyBirthday(60)
+daysUntillMyBirthday(0)
