@@ -13,13 +13,17 @@ function daysUntillMyBirthday(Y){
 		}
 	}
 	if(DUMB<=5){
-		while(DUMB>=1){
+		while(DUMB>1){
 			console.log(DUMB + " DAYS UNTIL MY BIRTHDAY!!!! ")
 			DUMB--
 		}
 	}
+	if(DUMB=1){
+		console.log("***" + DUMB + " DAY UNTIL MY BIRTHDAY****")
+		DUMB--
+		}
 	if(DUMB==0){
-		console.log("HAPPY BIRTHDAY")
+		console.log("*******HAPPY BIRTHDAY*******")
 	}
 }
 daysUntillMyBirthday(60)
