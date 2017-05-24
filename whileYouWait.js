@@ -1,14 +1,14 @@
 function daysUntillMyBirthday(Y){
 	var DUMB = Y
 	if(DUMB>30){
-		while(Y>30){
-			console.log(Y + " days until my birthday. Such a long time")
-			Y--
+		while(DUMB>30){
+			console.log(DUMB + " days until my birthday. Such a long time")
+			DUMB--
 		}
 	}
 	 if(DUMB<=30){
 		while(DUMB>5){
-			console.log(DUMB + " days until my birthday!!!")
+			console.log(DUMB + " days until my birthday")
 			DUMB--
 		}
 	}
@@ -22,4 +22,4 @@ function daysUntillMyBirthday(Y){
 		console.log("HAPPY BIRTHDAY")
 	}
 }
-daysUntillMyBirthday(60) 
+daysUntillMyBirthday(60)
